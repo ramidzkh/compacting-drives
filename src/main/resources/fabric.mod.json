@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "compacting_drives",
+  "version": "${version}",
+  "mixins": ["compacting-drives.mixins.json"],
+  "depends": {
+    "ae2": "*",
+    "minecraft": ">=1.18.2 <1.19"
+  },
+  "entrypoints": {
+    "ae2": ["me.ramidzkh.compacting.CompactingDrives::initialize"]
+  },
+  "name": "Compacting Drives",
+  "description": "AE2 drive upgrade to automatically compact items",
+  "icon": "assets/compacting_drives/textures/item/compacting_card.png",
+  "authors": ["ramidzkh"],
+  "license": ["LGPL-3.0-or-later"],
+  "contact": {
+    "homepage": "https://github.com/ramidzkh/compacting-drives#readme",
+    "issues": "https://github.com/ramidzkh/compacting-drives/issues"
+  }
+}
